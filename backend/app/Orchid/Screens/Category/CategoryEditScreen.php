@@ -18,7 +18,7 @@ use Illuminate\Validation\Rule;
 class CategoryEditScreen extends Screen
 {
     public ?Category $category = null;
-
+       
     public function query(Category $category): iterable
     {
         $this->category = $category;

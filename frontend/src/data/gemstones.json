@@ -1,0 +1,76 @@
+{
+  "gemstones": [
+    {
+      "id": 1,
+      "name": "Peridot",
+      "slug": "peridot",
+      "color": "#9ACD32",
+      "image": "Peridot.png",
+      "description": "Vibrant green gemstone symbolizing strength and vitality"
+    },
+    {
+      "id": 2,
+      "name": "Labradorite",
+      "slug": "labradorite",
+      "color": "#4682B4",
+      "image": "Labradorite.png",
+      "description": "Mystical stone with iridescent play of colors"
+    },
+    {
+      "id": 3,
+      "name": "Malachite",
+      "slug": "malachite",
+      "color": "#228B22",
+      "image": "Malachite.png",
+      "description": "Rich green stone with distinctive banding patterns"
+    },
+    {
+      "id": 4,
+      "name": "Blue Topaz",
+      "slug": "blue-topaz",
+      "color": "#4169E1",
+      "image": "Blue-Topaz.png",
+      "description": "Brilliant blue gemstone representing clarity and strength"
+    },
+    {
+      "id": 5,
+      "name": "Tanzanite",
+      "slug": "tanzanite",
+      "color": "#6A5ACD",
+      "image": "Tanzanite.png",
+      "description": "Rare blue-violet gemstone found only in Tanzania"
+    },
+    {
+      "id": 6,
+      "name": "Amethyst",
+      "slug": "amethyst",
+      "color": "#9370DB",
+      "image": "Amethyst.png",
+      "description": "Purple quartz symbolizing peace and tranquility"
+    },
+    {
+      "id": 7,
+      "name": "Garnet",
+      "slug": "garnet",
+      "color": "#DC143C",
+      "image": "Garnet.png",
+      "description": "Deep red gemstone representing passion and energy"
+    },
+    {
+      "id": 8,
+      "name": "Citrine",
+      "slug": "citrine",
+      "color": "#FFD700",
+      "image": "Citrine.png",
+      "description": "Golden yellow gemstone bringing joy and abundance"
+    },
+    {
+      "id": 9,
+      "name": "Ethiopian Opal",
+      "slug": "ethiopian-opal",
+      "color": "#FFFFFF",
+      "image": "Ethiopian-Opal.png",
+      "description": "Mesmerizing play-of-color gemstone from Ethiopia"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "whyChooseUs": [
+    {
+      "id": 1,
+      "title": "Premium Quality",
+      "description": "Every piece is crafted with meticulous attention to detail using only the finest materials and gemstones.",
+      "icon": "quality"
+    },
+    {
+      "id": 2,
+      "title": "Certified Gemstones",
+      "description": "All our gemstones are certified and sourced ethically from trusted suppliers worldwide.",
+      "icon": "certificate"
+    },
+    {
+      "id": 3,
+      "title": "Wholesale Pricing",
+      "description": "Competitive wholesale prices with flexible minimum order quantities for businesses of all sizes.",
+      "icon": "price"
+    },
+    {
+      "id": 4,
+      "title": "Custom Designs",
+      "description": "We offer custom design services to bring your unique jewelry visions to life.",
+      "icon": "design"
+    },
+    {
+      "id": 5,
+      "title": "Fast Shipping",
+      "description": "Quick and secure worldwide shipping with tracking for all orders.",
+      "icon": "shipping"
+    },
+    {
+      "id": 6,
+      "title": "Expert Craftsmanship",
+      "description": "Our skilled artisans have decades of experience in creating exquisite jewelry pieces.",
+      "icon": "craft"
+    }
+  ],
+  "productFeatures": [
+    {
+      "id": 1,
+      "title": "Natural Gemstones",
+      "description": "100% natural, ethically sourced gemstones",
+      "image": "gemstone-feature.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Handcrafted Excellence",
+      "description": "Each piece meticulously handcrafted by skilled artisans",
+      "image": "craft-feature.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Quality Assurance",
+      "description": "Rigorous quality checks at every stage of production",
+      "image": "quality-feature.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Customization Available",
+      "description": "Personalize your jewelry with custom designs and stones",
+      "image": "custom-feature.jpg"
+    }
+  ]
+}

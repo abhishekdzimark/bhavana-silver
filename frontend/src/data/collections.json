@@ -1,0 +1,39 @@
+{
+  "collections": [
+    {
+      "id": 1,
+      "name": "HALO COLLECTION",
+      "slug": "halo",
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop&q=90",
+      "description": "Elegant halo designs featuring center stones surrounded by brilliant accents"
+    },
+    {
+      "id": 2,
+      "name": "CHAKRA COLLECTION",
+      "slug": "chakra",
+      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop&q=90",
+      "description": "Spiritual jewelry inspired by the seven chakras and energy centers"
+    },
+    {
+      "id": 3,
+      "name": "DIAMOND COLLECTION",
+      "slug": "diamond",
+      "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&h=800&fit=crop&q=90",
+      "description": "Timeless diamond jewelry pieces for every occasion"
+    },
+    {
+      "id": 4,
+      "name": "SINGLE STONE COLLECTION",
+      "slug": "single-stone",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop&q=90",
+      "description": "Classic solitaire designs showcasing individual gemstone beauty"
+    },
+    {
+      "id": 5,
+      "name": "ANIMAL COLLECTION",
+      "slug": "animal",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&h=800&fit=crop&q=90",
+      "description": "Nature-inspired designs featuring animal motifs and organic shapes"
+    }
+  ]
+}

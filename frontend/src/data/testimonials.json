@@ -1,0 +1,52 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "rating": 5,
+      "text": "Bhavana Silver Jewellers has been our trusted supplier for over 5 years. Their quality is unmatched and their customer service is exceptional. Highly recommended!"
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "rating": 5,
+      "text": "The craftsmanship and attention to detail in every piece is remarkable. We've never had any quality issues and our customers love their jewelry."
+    },
+    {
+      "id": 3,
+      "name": "Priya Sharma",
+      "country": "India",
+      "flag": "🇮🇳",
+      "rating": 5,
+      "text": "Beautiful designs at competitive prices. The gemstone quality is excellent and the delivery is always on time. A pleasure to work with!"
+    },
+    {
+      "id": 4,
+      "name": "David Martinez",
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "rating": 5,
+      "text": "Their wholesale program is fantastic. Great variety, excellent quality, and the minimum order quantities are very reasonable for small businesses."
+    },
+    {
+      "id": 5,
+      "name": "Eva Bunin",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "rating": 5,
+      "text": "I am very satisfied with the entire experience of purchasing at Bhavana. From ordering and communication, to receiving products. It was very quick."
+    },
+    {
+      "id": 6,
+      "name": "Sophie Martin",
+      "country": "France",
+      "flag": "🇫🇷",
+      "rating": 5,
+      "text": "Beautiful designs and fast shipping. The quality is remarkable and the pricing is very competitive. Very happy with my purchase!"
+    }
+  ]
+}

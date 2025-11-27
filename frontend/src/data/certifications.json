@@ -1,0 +1,52 @@
+{
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Responsible Jewellery Council",
+      "slug": "rjc",
+      "image": "responsible-jewellery-council.png",
+      "description": "Certified member of the Responsible Jewellery Council",
+      "year": "2020"
+    },
+    {
+      "id": 2,
+      "name": "SGJIA Sitapura",
+      "slug": "sgjia",
+      "image": "sgjia.png",
+      "description": "Silver & Gold Jewellery Industry Association member",
+      "year": "2018"
+    },
+    {
+      "id": 3,
+      "name": "GJEPC India",
+      "slug": "gjepc",
+      "image": "gjepc.png",
+      "description": "Gem & Jewellery Export Promotion Council certified",
+      "year": "2019"
+    },
+    {
+      "id": 4,
+      "name": "Jaipur Jewellery Show",
+      "slug": "jaipur-show",
+      "image": "jaiput-jewellary-show.png",
+      "description": "Regular exhibitor at Jaipur Jewellery Show",
+      "year": "2017"
+    },
+    {
+      "id": 5,
+      "name": "Star Export House",
+      "slug": "star-export",
+      "image": "star-export.png",
+      "description": "Recognized as Star Export House by Government of India",
+      "year": "2021"
+    },
+    {
+      "id": 6,
+      "name": "FIEO",
+      "slug": "fieo",
+      "image": "fieo.png",
+      "description": "Federation of Indian Export Organisations member",
+      "year": "2019"
+    }
+  ]
+}

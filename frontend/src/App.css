@@ -1,0 +1,24 @@
+/* App Styles */
+.app-container {
+  min-height: 100vh;
+}
+
+/* Page Content Styles */
+.page-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.page-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.page-content p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+}

@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for horizontal scroll */
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+/* Main Section Headings - 30px */
+.section-heading {
+  font-family: 'Forum', Georgia, serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Swiper Custom Styles */
+.swiper-pagination-bullet-custom {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.swiper-pagination-bullet-custom:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  transform: scale(1.2);
+}
+
+.swiper-pagination-bullet-active-custom {
+  background-color: #997BB7 !important;
+  width: 36px;
+  border-radius: 6px;
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 12px rgba(153, 123, 183, 0.6);
+}
+
+/* Product page pagination - visible on white background */
+.related-pagination .swiper-pagination-bullet-custom {
+  background-color: #d1d5db;
+  border: 2px solid #e5e7eb;
+}
+
+.related-pagination .swiper-pagination-bullet-custom:hover {
+  background-color: #9ca3af;
+  transform: scale(1.2);
+}
+
+.related-pagination .swiper-pagination-bullet-active-custom {
+  background-color: #997BB7 !important;
+  border-color: rgba(153, 123, 183, 0.3);
+}
+
+/* Smooth transitions for all elements */
+.slide-image,
+.slide-subtitle,
+.slide-title,
+.slide-button,
+.slide-badges {
+  will-change: transform, opacity;
+}
+
+/* Remove conflicting CSS animations - GSAP handles all animations */
+.slide-image img {
+  transition: none;
+}
+
+/* Range Slider Styles */
+.range-slider-input {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  pointer-events: none;
+  outline: none;
+}
+
+/* Webkit (Chrome, Safari, Edge) */
+.range-slider-input::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #997BB7;
+  cursor: pointer;
+  pointer-events: auto;
+  box-shadow: 0 2px 4px rgba(153, 123, 183, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.range-slider-input::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(153, 123, 183, 0.5);
+}
+
+.range-slider-input::-webkit-slider-thumb:active {
+  transform: scale(1.05);
+  background: #997BB7;
+}
+
+/* Firefox */
+.range-slider-input::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #997BB7;
+  cursor: pointer;
+  pointer-events: auto;
+  box-shadow: 0 2px 4px rgba(153, 123, 183, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.range-slider-input::-moz-range-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(153, 123, 183, 0.5);
+}
+
+.range-slider-input::-moz-range-thumb:active {
+  transform: scale(1.05);
+  background: #997BB7;
+}
+
+/* Remove default track styling */
+.range-slider-input::-webkit-slider-runnable-track {
+  background: transparent;
+  border: none;
+}
+
+.range-slider-input::-moz-range-track {
+  background: transparent;
+  border: none;
+}

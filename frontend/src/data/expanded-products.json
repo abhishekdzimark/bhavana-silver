@@ -1,0 +1,494 @@
+{
+  "products": [
+    {
+      "id": "GR001",
+      "name": "14K Gold Diamond Solitaire Engagement Ring",
+      "category": "gold-jewelry",
+      "subcategory": "Rings",
+      "collection": "single-stone",
+      "style": "Solitaire",
+      "stone": "diamond",
+      "weight": "3.5000 GMS",
+      "priceRange": { "min": 450.00, "max": 550.00 },
+      "rating": 5,
+      "reviews": 145,
+      "inStock": true,
+      "description": "Classic 14K gold solitaire engagement ring featuring a brilliant cut diamond.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "DIAMOND", "shape": "ROUND", "size": "6 MM", "pieces": "1 Pc", "weight": "1.000 CTS", "setting": "PRONG SETTING", "quality": "VS1" }
+      ],
+      "minOrderQuantity": 3,
+      "features": ["14K Gold", "Natural Diamond", "Certified", "Lifetime warranty"]
+    },
+    {
+      "id": "GR002",
+      "name": "14K Gold Ruby Halo Ring",
+      "category": "gold-jewelry",
+      "subcategory": "Rings",
+      "collection": "halo",
+      "style": "Halo",
+      "stone": "ruby",
+      "weight": "4.2000 GMS",
+      "priceRange": { "min": 380.00, "max": 480.00 },
+      "rating": 5,
+      "reviews": 98,
+      "inStock": true,
+      "description": "Stunning ruby center stone surrounded by diamond halo in 14K gold.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "RUBY", "shape": "OVAL", "size": "7 MM", "pieces": "1 Pc", "weight": "1.500 CTS", "setting": "HALO SETTING", "quality": "AAA" }
+      ],
+      "minOrderQuantity": 3,
+      "features": ["14K Gold", "Natural Ruby", "Diamond Halo", "Certificate included"]
+    },
+    {
+      "id": "GR003",
+      "name": "14K Gold Sapphire Three Stone Ring",
+      "category": "gold-jewelry",
+      "subcategory": "Rings",
+      "collection": "chakra",
+      "style": "Three Stone",
+      "stone": "sapphire",
+      "weight": "3.8000 GMS",
+      "priceRange": { "min": 420.00, "max": 520.00 },
+      "rating": 5,
+      "reviews": 112,
+      "inStock": true,
+      "description": "Elegant three stone ring with blue sapphires in 14K gold setting.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "SAPPHIRE", "shape": "ROUND", "size": "5 MM", "pieces": "3 Pcs", "weight": "2.100 CTS", "setting": "PRONG SETTING", "quality": "AAA" }
+      ],
+      "minOrderQuantity": 3,
+      "features": ["14K Gold", "Natural Sapphire", "Three Stone Design", "Certified"]
+    },
+    {
+      "id": "GR004",
+      "name": "14K Gold Emerald Wedding Band",
+      "category": "gold-jewelry",
+      "subcategory": "Rings",
+      "collection": "vintage",
+      "style": "Band",
+      "stone": "emerald",
+      "weight": "4.5000 GMS",
+      "priceRange": { "min": 390.00, "max": 490.00 },
+      "rating": 4,
+      "reviews": 87,
+      "inStock": true,
+      "description": "Classic wedding band with channel-set emeralds in 14K gold.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "EMERALD", "shape": "BAGUETTE", "size": "3 MM", "pieces": "7 Pcs", "weight": "1.800 CTS", "setting": "CHANNEL SETTING", "quality": "AA" }
+      ],
+      "minOrderQuantity": 3,
+      "features": ["14K Gold", "Natural Emerald", "Wedding Band", "Durable"]
+    },
+    {
+      "id": "GN001",
+      "name": "14K Gold Diamond Tennis Necklace",
+      "category": "gold-jewelry",
+      "subcategory": "Necklaces",
+      "collection": "modern",
+      "style": "Tennis",
+      "stone": "diamond",
+      "weight": "12.5000 GMS",
+      "priceRange": { "min": 1200.00, "max": 1500.00 },
+      "rating": 5,
+      "reviews": 203,
+      "inStock": true,
+      "description": "Luxurious diamond tennis necklace in 14K gold with brilliant cut diamonds.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "DIAMOND", "shape": "ROUND", "size": "3 MM", "pieces": "45 Pcs", "weight": "5.000 CTS", "setting": "PRONG SETTING", "quality": "VS" }
+      ],
+      "minOrderQuantity": 2,
+      "features": ["14K Gold", "Natural Diamonds", "Tennis Style", "Certified"]
+    },
+    {
+      "id": "GN002",
+      "name": "14K Gold Pearl Pendant Necklace",
+      "category": "gold-jewelry",
+      "subcategory": "Necklaces",
+      "collection": "single-stone",
+      "style": "Pendant",
+      "stone": "pearl",
+      "weight": "5.2000 GMS",
+      "priceRange": { "min": 280.00, "max": 350.00 },
+      "rating": 5,
+      "reviews": 156,
+      "inStock": true,
+      "description": "Elegant freshwater pearl pendant on 14K gold chain.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "PEARL", "shape": "ROUND", "size": "8 MM", "pieces": "1 Pc", "weight": "3.000 CTS", "setting": "BAIL SETTING", "quality": "AAA" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["14K Gold", "Freshwater Pearl", "Classic Design", "Gift Box"]
+    },
+    {
+      "id": "GE001",
+      "name": "14K Gold Diamond Stud Earrings",
+      "category": "gold-jewelry",
+      "subcategory": "Earrings",
+      "collection": "single-stone",
+      "style": "Stud",
+      "stone": "diamond",
+      "weight": "2.5000 GMS",
+      "priceRange": { "min": 350.00, "max": 450.00 },
+      "rating": 5,
+      "reviews": 189,
+      "inStock": true,
+      "description": "Classic diamond stud earrings in 14K gold with secure backs.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "DIAMOND", "shape": "ROUND", "size": "5 MM", "pieces": "2 Pcs", "weight": "1.000 CTS", "setting": "PRONG SETTING", "quality": "VS1" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["14K Gold", "Natural Diamonds", "Secure Backs", "Everyday Wear"]
+    },
+    {
+      "id": "GE002",
+      "name": "14K Gold Sapphire Hoop Earrings",
+      "category": "gold-jewelry",
+      "subcategory": "Earrings",
+      "collection": "halo",
+      "style": "Hoop",
+      "stone": "sapphire",
+      "weight": "3.8000 GMS",
+      "priceRange": { "min": 320.00, "max": 420.00 },
+      "rating": 5,
+      "reviews": 134,
+      "inStock": true,
+      "description": "Elegant hoop earrings with blue sapphires in 14K gold.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "SAPPHIRE", "shape": "ROUND", "size": "3 MM", "pieces": "12 Pcs", "weight": "1.500 CTS", "setting": "CHANNEL SETTING", "quality": "AA" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["14K Gold", "Natural Sapphire", "Hinged Hoops", "Lightweight"]
+    },
+    {
+      "id": "GB001",
+      "name": "14K Gold Diamond Tennis Bracelet",
+      "category": "gold-jewelry",
+      "subcategory": "Bracelets",
+      "collection": "modern",
+      "style": "Tennis",
+      "stone": "diamond",
+      "weight": "8.5000 GMS",
+      "priceRange": { "min": 890.00, "max": 1100.00 },
+      "rating": 5,
+      "reviews": 167,
+      "inStock": true,
+      "description": "Stunning diamond tennis bracelet in 14K gold.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "DIAMOND", "shape": "ROUND", "size": "3 MM", "pieces": "28 Pcs", "weight": "3.500 CTS", "setting": "PRONG SETTING", "quality": "VS" }
+      ],
+      "minOrderQuantity": 3,
+      "features": ["14K Gold", "Natural Diamonds", "Secure Clasp", "Certified"]
+    },
+    {
+      "id": "GB002",
+      "name": "14K Gold Bangle with Gemstones",
+      "category": "gold-jewelry",
+      "subcategory": "Bracelets",
+      "collection": "chakra",
+      "style": "Bangle",
+      "stone": "multi",
+      "weight": "15.0000 GMS",
+      "priceRange": { "min": 650.00, "max": 800.00 },
+      "rating": 4,
+      "reviews": 92,
+      "inStock": true,
+      "description": "Beautiful gold bangle adorned with colorful gemstones.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "MULTI GEMSTONE", "shape": "VARIOUS", "size": "4 MM", "pieces": "15 Pcs", "weight": "4.000 CTS", "setting": "BEZEL SETTING", "quality": "AA" }
+      ],
+      "minOrderQuantity": 2,
+      "features": ["14K Gold", "Multiple Gemstones", "Hinged Bangle", "Unique Design"]
+    },
+    {
+      "id": "SR001",
+      "name": "Sterling Silver Blue Topaz Ring",
+      "category": "silver-jewelry",
+      "subcategory": "Rings",
+      "collection": "single-stone",
+      "style": "Solitaire",
+      "stone": "blue-topaz",
+      "weight": "4.5000 GMS",
+      "priceRange": { "min": 120.00, "max": 180.00 },
+      "rating": 5,
+      "reviews": 145,
+      "inStock": true,
+      "description": "Beautiful sterling silver ring with natural blue topaz.",
+      "material": "Sterling Silver",
+      "images": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "BLUE TOPAZ", "shape": "OVAL", "size": "8 MM", "pieces": "1 Pc", "weight": "3.000 CTS", "setting": "PRONG SETTING", "quality": "AAA" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["Sterling Silver", "Natural Blue Topaz", "Rhodium Plated", "Gift Box"]
+    },
+    {
+      "id": "SR002",
+      "name": "Sterling Silver Amethyst Halo Ring",
+      "category": "silver-jewelry",
+      "subcategory": "Rings",
+      "collection": "halo",
+      "style": "Halo",
+      "stone": "amethyst",
+      "weight": "5.2000 GMS",
+      "priceRange": { "min": 145.00, "max": 195.00 },
+      "rating": 5,
+      "reviews": 128,
+      "inStock": true,
+      "description": "Elegant amethyst ring with cubic zirconia halo in sterling silver.",
+      "material": "Sterling Silver",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "AMETHYST", "shape": "ROUND", "size": "7 MM", "pieces": "1 Pc", "weight": "2.500 CTS", "setting": "HALO SETTING", "quality": "AA" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["Sterling Silver", "Natural Amethyst", "CZ Halo", "Rhodium Finish"]
+    },
+    {
+      "id": "SN001",
+      "name": "Sterling Silver Pendant Necklace with Moonstone",
+      "category": "silver-jewelry",
+      "subcategory": "Necklaces",
+      "collection": "chakra",
+      "style": "Pendant",
+      "stone": "moonstone",
+      "weight": "6.8000 GMS",
+      "priceRange": { "min": 95.00, "max": 145.00 },
+      "rating": 5,
+      "reviews": 176,
+      "inStock": true,
+      "description": "Mystical moonstone pendant on sterling silver chain.",
+      "material": "Sterling Silver",
+      "images": [
+        "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "MOONSTONE", "shape": "OVAL", "size": "10 MM", "pieces": "1 Pc", "weight": "4.000 CTS", "setting": "BEZEL SETTING", "quality": "AAA" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["Sterling Silver", "Natural Moonstone", "18 inch Chain", "Adjustable"]
+    },
+    {
+      "id": "SE001",
+      "name": "Sterling Silver Garnet Stud Earrings",
+      "category": "silver-jewelry",
+      "subcategory": "Earrings",
+      "collection": "single-stone",
+      "style": "Stud",
+      "stone": "garnet",
+      "weight": "3.2000 GMS",
+      "priceRange": { "min": 75.00, "max": 115.00 },
+      "rating": 5,
+      "reviews": 198,
+      "inStock": true,
+      "description": "Classic garnet stud earrings in sterling silver.",
+      "material": "Sterling Silver",
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "GARNET", "shape": "ROUND", "size": "6 MM", "pieces": "2 Pcs", "weight": "2.000 CTS", "setting": "PRONG SETTING", "quality": "AA" }
+      ],
+      "minOrderQuantity": 10,
+      "features": ["Sterling Silver", "Natural Garnet", "Butterfly Backs", "Hypoallergenic"]
+    },
+    {
+      "id": "SB001",
+      "name": "Sterling Silver Charm Bracelet",
+      "category": "silver-jewelry",
+      "subcategory": "Bracelets",
+      "collection": "modern",
+      "style": "Charm",
+      "stone": "none",
+      "weight": "12.5000 GMS",
+      "priceRange": { "min": 125.00, "max": 175.00 },
+      "rating": 5,
+      "reviews": 234,
+      "inStock": true,
+      "description": "Versatile sterling silver charm bracelet with lobster clasp.",
+      "material": "Sterling Silver",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [],
+      "minOrderQuantity": 5,
+      "features": ["Sterling Silver", "Charm Ready", "Secure Clasp", "Adjustable Length"]
+    },
+    {
+      "id": "FR001",
+      "name": "Fashion Crystal Statement Ring",
+      "category": "fashion-jewelry",
+      "subcategory": "Rings",
+      "collection": "contemporary",
+      "style": "Statement",
+      "stone": "crystal",
+      "weight": "8.0000 GMS",
+      "priceRange": { "min": 38.00, "max": 65.00 },
+      "rating": 4,
+      "reviews": 267,
+      "inStock": true,
+      "description": "Bold statement ring with colorful crystals.",
+      "material": "Alloy",
+      "images": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "CRYSTAL", "shape": "VARIOUS", "size": "MIXED", "pieces": "Multiple", "weight": "N/A", "setting": "GLUE SETTING", "quality": "REGULAR" }
+      ],
+      "minOrderQuantity": 20,
+      "features": ["Fashion Jewelry", "Colorful Crystals", "Adjustable", "Trendy Design"]
+    },
+    {
+      "id": "FR002",
+      "name": "Bohemian Style Multi-Band Ring Set",
+      "category": "fashion-jewelry",
+      "subcategory": "Rings",
+      "collection": "bohemian",
+      "style": "Band Set",
+      "stone": "none",
+      "weight": "6.5000 GMS",
+      "priceRange": { "min": 42.00, "max": 68.00 },
+      "rating": 4,
+      "reviews": 189,
+      "inStock": true,
+      "description": "Set of 5 bohemian style stackable rings.",
+      "material": "Alloy",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [],
+      "minOrderQuantity": 15,
+      "features": ["Fashion Jewelry", "5 Piece Set", "Stackable", "Boho Style"]
+    },
+    {
+      "id": "FN001",
+      "name": "Layered Chain Necklace Set",
+      "category": "fashion-jewelry",
+      "subcategory": "Necklaces",
+      "collection": "minimalist",
+      "style": "Layered",
+      "stone": "none",
+      "weight": "15.0000 GMS",
+      "priceRange": { "min": 55.00, "max": 85.00 },
+      "rating": 5,
+      "reviews": 312,
+      "inStock": true,
+      "description": "Trendy layered necklace set with three chains.",
+      "material": "Alloy",
+      "images": [
+        "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [],
+      "minOrderQuantity": 12,
+      "features": ["Fashion Jewelry", "3 Layer Set", "Gold Plated", "Adjustable"]
+    },
+    {
+      "id": "FE001",
+      "name": "Tassel Drop Earrings",
+      "category": "fashion-jewelry",
+      "subcategory": "Earrings",
+      "collection": "party-wear",
+      "style": "Drop",
+      "stone": "none",
+      "weight": "5.5000 GMS",
+      "priceRange": { "min": 32.00, "max": 52.00 },
+      "rating": 4,
+      "reviews": 245,
+      "inStock": true,
+      "description": "Elegant tassel drop earrings perfect for parties.",
+      "material": "Alloy",
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [],
+      "minOrderQuantity": 20,
+      "features": ["Fashion Jewelry", "Tassel Design", "Lightweight", "Party Wear"]
+    },
+    {
+      "id": "FB001",
+      "name": "Beaded Friendship Bracelet Set",
+      "category": "fashion-jewelry",
+      "subcategory": "Bracelets",
+      "collection": "casual",
+      "style": "Beaded",
+      "stone": "none",
+      "weight": "8.0000 GMS",
+      "priceRange": { "min": 28.00, "max": 45.00 },
+      "rating": 5,
+      "reviews": 456,
+      "inStock": true,
+      "description": "Colorful beaded bracelet set, perfect for casual wear.",
+      "material": "Beads & Thread",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [],
+      "minOrderQuantity": 25,
+      "features": ["Fashion Jewelry", "Set of 3", "Adjustable", "Colorful Beads"]
+    }
+  ]
+}

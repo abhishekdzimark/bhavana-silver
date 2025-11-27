@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "id": "VE050708",
+      "name": "WHOLESALE 14K GOLD ROUND AMETHYST GEMSTONE STUD EARRINGS",
+      "category": "gold-jewelry",
+      "subcategory": "Earrings",
+      "collection": "single-stone",
+      "style": "Stud",
+      "stone": "amethyst",
+      "weight": "2.5000 GMS",
+      "priceRange": { "min": 166.48, "max": 185.55 },
+      "rating": 4,
+      "reviews": 85,
+      "inStock": true,
+      "description": "Exquisite handcrafted 14K gold stud earrings featuring natural Amethyst gemstone. Perfect for adding elegance to any outfit.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "AMETHYST", "shape": "ROUND", "size": "6 MM", "pieces": "2 Pcs", "weight": "2.040 CTS", "setting": "PRONG SETTING", "quality": "REGULAR" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["Handcrafted", "Natural gemstones", "14K Gold", "Nickel-free"]
+    },
+    {
+      "id": "VR033032",
+      "name": "WHOLESALE 14K GOLD AMETHYST GEMSTONE THREE STONE RING",
+      "category": "gold-jewelry",
+      "subcategory": "Rings",
+      "collection": "chakra",
+      "style": "Three Stone",
+      "stone": "amethyst",
+      "weight": "3.2000 GMS",
+      "priceRange": { "min": 260.40, "max": 299.29 },
+      "rating": 5,
+      "reviews": 120,
+      "inStock": true,
+      "description": "Stunning three stone ring featuring natural Amethyst gemstones set in 14K gold.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "AMETHYST", "shape": "OVAL", "size": "7 MM", "pieces": "3 Pcs", "weight": "3.500 CTS", "setting": "PRONG SETTING", "quality": "PREMIUM" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["Handcrafted", "Natural gemstones", "14K Gold", "Certificate included"]
+    },
+    {
+      "id": "VR033643",
+      "name": "WHOLESALE 14K GOLD PURPLE AMETHYST GEMSTONE RING",
+      "category": "gold-jewelry",
+      "subcategory": "Rings",
+      "collection": "single-stone",
+      "style": "Solitaire",
+      "stone": "amethyst",
+      "weight": "2.8000 GMS",
+      "priceRange": { "min": 268.19, "max": 333.80 },
+      "rating": 4,
+      "reviews": 95,
+      "inStock": true,
+      "description": "Classic solitaire ring with a stunning purple Amethyst gemstone.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "AMETHYST", "shape": "ROUND", "size": "8 MM", "pieces": "1 Pc", "weight": "2.500 CTS", "setting": "PRONG SETTING", "quality": "PREMIUM" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["Handcrafted", "Natural gemstones", "14K Gold", "Gift box included"]
+    },
+    {
+      "id": "VE064279",
+      "name": "BUY NATURAL INDIAN RUBY GEMSTONE EARRING IN 14K GOLD",
+      "category": "gold-jewelry",
+      "subcategory": "Earrings",
+      "collection": "halo",
+      "style": "English Lock",
+      "stone": "ruby",
+      "weight": "2.7000 GMS",
+      "priceRange": { "min": 230.02, "max": 340.63 },
+      "rating": 4.5,
+      "reviews": 128,
+      "inStock": true,
+      "description": "Exquisite handcrafted 14K gold earrings featuring natural Indian Ruby gemstone. Perfect for adding elegance to any outfit.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "INDIAN RUBY", "shape": "ROUND", "size": "6 MM", "pieces": "2 Pcs", "weight": "2.040 CTS", "setting": "PRONG SETTING", "quality": "REGULAR" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["Handcrafted", "Natural gemstones", "14K Gold", "Nickel-free"]
+    },
+    {
+      "id": "VS012345",
+      "name": "STERLING SILVER BLUE TOPAZ PENDANT NECKLACE",
+      "category": "silver-jewelry",
+      "subcategory": "Pendants",
+      "collection": "chakra",
+      "style": "Classic",
+      "stone": "blue-topaz",
+      "weight": "4.5000 GMS",
+      "priceRange": { "min": 89.99, "max": 129.99 },
+      "rating": 5,
+      "reviews": 210,
+      "inStock": true,
+      "description": "Beautiful sterling silver pendant featuring a stunning Blue Topaz gemstone.",
+      "material": "Sterling Silver",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "BLUE TOPAZ", "shape": "CUSHION", "size": "10 MM", "pieces": "1 Pc", "weight": "4.000 CTS", "setting": "BEZEL SETTING", "quality": "PREMIUM" }
+      ],
+      "minOrderQuantity": 10,
+      "features": ["Sterling Silver", "Natural gemstone", "Hypoallergenic", "Chain included"]
+    },
+    {
+      "id": "VB067890",
+      "name": "SILVER TANZANITE GEMSTONE BRACELET",
+      "category": "silver-jewelry",
+      "subcategory": "Bracelets",
+      "collection": "halo",
+      "style": "Tennis",
+      "stone": "tanzanite",
+      "weight": "8.2000 GMS",
+      "priceRange": { "min": 195.00, "max": 245.00 },
+      "rating": 4,
+      "reviews": 156,
+      "inStock": true,
+      "description": "Elegant tennis bracelet with multiple Tanzanite gemstones set in sterling silver.",
+      "material": "Sterling Silver",
+      "images": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "TANZANITE", "shape": "ROUND", "size": "4 MM", "pieces": "12 Pcs", "weight": "6.000 CTS", "setting": "PRONG SETTING", "quality": "REGULAR" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["Sterling Silver", "Natural gemstones", "Adjustable clasp", "Gift box"]
+    },
+    {
+      "id": "VF098765",
+      "name": "FASHION CUBIC ZIRCONIA STATEMENT RING",
+      "category": "fashion-jewelry",
+      "subcategory": "Rings",
+      "collection": "animal",
+      "style": "Statement",
+      "stone": "cubic-zirconia",
+      "weight": "3.0000 GMS",
+      "priceRange": { "min": 45.00, "max": 65.00 },
+      "rating": 4,
+      "reviews": 320,
+      "inStock": true,
+      "description": "Bold statement ring featuring brilliant Cubic Zirconia stones in a modern design.",
+      "material": "Brass with Gold Plating",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "CUBIC ZIRCONIA", "shape": "ROUND", "size": "3 MM", "pieces": "15 Pcs", "weight": "3.000 CTS", "setting": "PAVE SETTING", "quality": "AAA" }
+      ],
+      "minOrderQuantity": 20,
+      "features": ["Gold plated", "Cubic Zirconia", "Trendy design", "Affordable"]
+    },
+    {
+      "id": "VG045678",
+      "name": "14K GOLD GARNET GEMSTONE HALO RING",
+      "category": "gold-jewelry",
+      "subcategory": "Rings",
+      "collection": "halo",
+      "style": "Halo",
+      "stone": "garnet",
+      "weight": "3.5000 GMS",
+      "priceRange": { "min": 285.00, "max": 340.00 },
+      "rating": 5,
+      "reviews": 98,
+      "inStock": true,
+      "description": "Stunning halo ring featuring a center Garnet surrounded by accent stones.",
+      "material": "14K Gold",
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&h=800&fit=crop",
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=800&fit=crop"
+      ],
+      "stoneDetails": [
+        { "name": "GARNET", "shape": "ROUND", "size": "7 MM", "pieces": "1 Pc", "weight": "2.000 CTS", "setting": "HALO SETTING", "quality": "PREMIUM" }
+      ],
+      "minOrderQuantity": 5,
+      "features": ["14K Gold", "Natural Garnet", "Halo design", "Certificate included"]
+    }
+  ]
+}

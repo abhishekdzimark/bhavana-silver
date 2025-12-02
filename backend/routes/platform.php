@@ -13,6 +13,8 @@ use App\Orchid\Screens\Category\CategoryListScreen;
 use App\Orchid\Screens\User\UserEditScreen;
 use App\Orchid\Screens\User\UserListScreen;
 use App\Orchid\Screens\User\UserProfileScreen;
+use App\Orchid\Screens\SiteSettings\HeaderSettingsScreen;
+use App\Orchid\Screens\SiteSettings\FooterSettingsScreen;
 use Illuminate\Support\Facades\Route;
 use Tabuna\Breadcrumbs\Trail;
 
@@ -110,5 +112,18 @@ Route::screen('categories/{category}/edit', CategoryEditScreen::class)
     ->breadcrumbs(fn (Trail $trail, $category) => $trail
         ->parent('platform.categories')
         ->push($category->name, route('platform.categories.edit', $category)));
+
+// Site Settings
+Route::screen('settings/header', HeaderSettingsScreen::class)
+    ->name('platform.settings.header')
+    ->breadcrumbs(fn (Trail $trail) => $trail
+        ->parent('platform.index')
+        ->push('Header Settings', route('platform.settings.header')));
+
+Route::screen('settings/footer', FooterSettingsScreen::class)
+    ->name('platform.settings.footer')
+    ->breadcrumbs(fn (Trail $trail) => $trail
+        ->parent('platform.index')
+        ->push('Footer Settings', route('platform.settings.footer')));
 
 // Route::screen('idea', Idea::class, 'platform.screens.idea');

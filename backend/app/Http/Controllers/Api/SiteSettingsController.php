@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\SiteSetting;
 use Illuminate\Http\JsonResponse;
 
-class SiteSettingsController extends Controller
+class SiteSettingsController extends Controller    
 {
     /**
      * Get header configuration

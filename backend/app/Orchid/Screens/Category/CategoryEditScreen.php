@@ -92,7 +92,7 @@ class CategoryEditScreen extends Screen
         ];
     }
 
-    public function save(Request $request): void
+    public function save(Request $request)
     {
         $data = $request->validate([
             'category.name' => 'required|string|max:255',
@@ -146,7 +146,12 @@ class CategoryEditScreen extends Screen
 
         $this->category->fill($categoryData)->save();
 
-        Alert::info('Category saved successfully.');
+        Alert::success('Category saved successfully!');
+        
+        // Refresh the category to ensure we have the latest data including ID
+        $this->category->refresh();
+        
+        return redirect()->route('platform.categories.edit', $this->category->id);
     }
 
     public function remove()

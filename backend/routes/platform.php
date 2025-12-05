@@ -15,6 +15,8 @@ use App\Orchid\Screens\User\UserListScreen;
 use App\Orchid\Screens\User\UserProfileScreen;
 use App\Orchid\Screens\SiteSettings\HeaderSettingsScreen;
 use App\Orchid\Screens\SiteSettings\FooterSettingsScreen;
+use App\Orchid\Screens\Stone\StoneEditScreen;
+use App\Orchid\Screens\Stone\StoneListScreen;
 use Illuminate\Support\Facades\Route;
 use Tabuna\Breadcrumbs\Trail;
 
@@ -112,6 +114,25 @@ Route::screen('categories/{category}/edit', CategoryEditScreen::class)
     ->breadcrumbs(fn (Trail $trail, $category) => $trail
         ->parent('platform.categories')
         ->push($category->name, route('platform.categories.edit', $category)));
+
+// Stones
+Route::screen('stones', StoneListScreen::class)
+    ->name('platform.stones')
+    ->breadcrumbs(fn (Trail $trail) => $trail
+        ->parent('platform.index')
+        ->push('Stones', route('platform.stones')));
+
+Route::screen('stones/create', StoneEditScreen::class)
+    ->name('platform.stones.create')
+    ->breadcrumbs(fn (Trail $trail) => $trail
+        ->parent('platform.stones')
+        ->push('Create', route('platform.stones.create')));
+
+Route::screen('stones/{stone}/edit', StoneEditScreen::class)
+    ->name('platform.stones.edit')
+    ->breadcrumbs(fn (Trail $trail, $stone) => $trail
+        ->parent('platform.stones')
+        ->push($stone->name, route('platform.stones.edit', $stone)));
 
 // Site Settings
 Route::screen('settings/header', HeaderSettingsScreen::class)

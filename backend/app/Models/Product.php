@@ -25,11 +25,16 @@ class Product extends Model
         'category_id',
         'stone_id',
         'image',
+        'stone_size',
+        'dimensions',
+        'plating',
+        'weight',
     ];
 
     protected $casts = [
         'details' => 'array',
         'price' => 'decimal:2',
+        'weight' => 'decimal:2',
     ];
 
     protected $allowedFilters = [

@@ -47,6 +47,10 @@ class PlatformProvider extends OrchidServiceProvider
                     Menu::make('Categories')
                         ->icon('bs.folder')
                         ->route('platform.categories'),
+
+                    Menu::make('Stones')
+                        ->icon('bs.gem')
+                        ->route('platform.stones'),
                 ]),
 
             Menu::make(__('Users'))

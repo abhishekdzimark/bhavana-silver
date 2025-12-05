@@ -11,6 +11,7 @@ use Orchid\Screen\Fields\Input;
 use Orchid\Screen\Fields\TextArea;
 use Orchid\Screen\Fields\Upload;
 use Orchid\Screen\Fields\Select;
+use Orchid\Screen\Fields\Relation;
 use Orchid\Support\Facades\Layout;
 use Orchid\Screen\Screen;
 use Orchid\Support\Facades\Alert;
@@ -55,9 +56,9 @@ class ProductEditScreen extends Screen
         return [
             Layout::rows([
                 Input::make('product.code')
-                    ->title('Product Code')
+                    ->title('SKU no.')
                     ->required()
-                    ->placeholder('Enter a Product Code'),
+                    ->placeholder('Enter SKU Number'),
 
                 Input::make('product.name')
                     ->title('Name')
@@ -73,16 +74,34 @@ class ProductEditScreen extends Screen
                     ->step('0.01')
                     ->title('Price'),
 
+                Input::make('product.stone_size')
+                    ->title('Stone Size')
+                    ->placeholder('e.g., 5x7 mm'),
+
+                Input::make('product.dimensions')
+                    ->title('Dimensions')
+                    ->placeholder('e.g., 10x12 mm'),
+
+                Input::make('product.plating')
+                    ->title('Plating')
+                    ->placeholder('e.g., Gold Plated'),
+
+                Input::make('product.weight')
+                    ->type('number')
+                    ->step('0.01')
+                    ->title('Weight (g)'),
+
                 Select::make('product.category_id')
                     ->title('Category')
                     ->options($this->getCategoryOptions())
                     ->empty('No Category', 0)
                     ->help('Select a category from the hierarchical list'),
 
-                Input::make('stone')
+                Relation::make('product.stone_id')
+                    ->fromModel(Stone::class, 'name')
                     ->title('Stone')
-                    ->placeholder('Optional: e.g., Ethiopian Opal')
-                    ->help('Start typing stone name; existing will match, new name will create a stone.'),
+                    ->empty('No Stone Selected')
+                    ->help('Select a stone from the list'),
 
                 TextArea::make('product.short_description')
                     ->rows(3)
@@ -107,8 +126,17 @@ class ProductEditScreen extends Screen
         ];
     }
 
-    public function save(Request $request): void
+    public function save(Request $request)
     {
+        $request->validate([
+            'product.code' => 'required|string|max:255',
+            'product.name' => 'required|string|max:255',
+            'product.stone_size' => 'nullable|string|max:255',
+            'product.dimensions' => 'nullable|string|max:255',
+            'product.plating' => 'nullable|string|max:255',
+            'product.weight' => 'nullable|numeric',
+        ]);
+        
         $data = $request->get('product');
 
         // Normalize details if JSON text provided
@@ -139,6 +167,26 @@ class ProductEditScreen extends Screen
             }
         }
 
+        // Handle Category Selection
+        // Convert empty string to null and validate category exists
+        if (isset($data['category_id'])) {
+            // Convert empty string or "0" to null
+            if ($data['category_id'] === '' || $data['category_id'] === '0' || $data['category_id'] === 0) {
+                $data['category_id'] = null;
+            } elseif (!empty($data['category_id'])) {
+                // Validate that the category exists
+                if (!Category::where('id', $data['category_id'])->exists()) {
+                    Alert::warning("Selected category does not exist. Product saved without category.");
+                    $data['category_id'] = null;
+                }
+            } else {
+                $data['category_id'] = null;
+            }
+        } else {
+            // No category field in request, set to null
+            $data['category_id'] = null;
+        }
+
         // Generate product slug from name if not provided
         if (empty($data['slug']) && isset($data['name'])) {
             $data['slug'] = Str::slug($data['name']);
@@ -147,19 +195,11 @@ class ProductEditScreen extends Screen
             $data['slug'] = Str::slug($data['slug']);
         }
 
-        // Resolve stone by name (create if missing)
-        $stoneName = trim((string)$request->input('stone', ''));
-        if ($stoneName !== '') {
-            $stone = Stone::query()
-                ->whereRaw('LOWER(name) = ?', [mb_strtolower($stoneName)])
-                ->first();
-            if (!$stone) {
-                $stone = Stone::create([
-                    'name' => $stoneName,
-                    'slug' => Str::slug($stoneName),
-                ]);
+        // Handle Stone Selection
+        if (isset($data['stone_id']) && !empty($data['stone_id'])) {
+            if (!Stone::where('id', $data['stone_id'])->exists()) {
+                 $data['stone_id'] = null;
             }
-            $data['stone_id'] = $stone->id;
         } else {
             $data['stone_id'] = null;
         }
@@ -177,7 +217,12 @@ class ProductEditScreen extends Screen
             $this->product->attachment()->syncWithoutDetaching($validIds);
         }
 
-        Alert::info('Product saved successfully.');
+        Alert::success('Product saved successfully!');
+        
+        // Refresh the product to ensure we have the latest data including ID
+        $this->product->refresh();
+        
+        return redirect()->route('platform.products.edit', $this->product->id);
     }
 
     public function remove()
